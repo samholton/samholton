@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bakup USB Jump Drive to Disk Image (and Mount)"
+title: "Backup USB Jump Drive to Disk Image"
 date: 2023-09-07 17:31
 categories: Linux
 tags: [backup]
