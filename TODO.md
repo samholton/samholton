@@ -7,4 +7,3 @@
 * RATGDO
 * 2023 State of Homelab
 * Reset EGO Battery
-* Backing up USB and mounting
