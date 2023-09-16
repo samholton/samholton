@@ -3,7 +3,7 @@ layout: post
 title: "Local Garage Door Control with RATGDO"
 date: 2023-09-10 9:54
 categories: Tinker
-tags: [diy, local control]
+tags: [diy, local control, home assistant]
 
 image:
   alt: ratgdo mounted with zip ties

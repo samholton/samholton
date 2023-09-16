@@ -13,6 +13,9 @@ In playing with Jekyll and static sites, I've recently learned about the `webp` 
 * ImageMagick (for the `convert` tool)
 * <https://packages.debian.org/search?keywords=webp> (for the `cwebp` tool)
 
+```console
+apt install imagemagick webp```
+
 
 ## Resize, Strip Metadata, and Convert to WEBP
 
@@ -20,7 +23,7 @@ A single file
 
 ```console
 file="my-file.jpg"
-convert "$file" -resize "1600x1600>" -strip "$file"
+convert "$file" -resize "1200x1200>" -strip "$file"
 cwebp "$file" -o "${file%.*}.webp"
 ```
 
@@ -31,7 +34,7 @@ for file in *.jpg
 do
     # note the use of the > operator
     # this will prevent smaller images from being scaled up
-    convert "$file" -resize "1600x1600>" -strip "$file"
+    convert "$file" -resize "1200x1200>" -strip "$file"
     cwebp "$file" -o "${file%.*}.webp"
 done
 ```
@@ -50,4 +53,4 @@ lqip-gen --copy test.jpg
 
 ## Chirpy Header Images
 
-The [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll recommends header images be `1200 x 630` or have an aspect ratio of `1.91 : 1`. I use [Gimp](https://www.gimp.org/) 
+The [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll recommends header images be `1200 x 630` or have an aspect ratio of `1.91 : 1`. I use [Gimp](https://www.gimp.org/) to crop to the correct aspect ratio (Selection > Fixed Aspect ratio > make selection followed by Image > Crop to Selection).

@@ -6,7 +6,7 @@ categories: Linux
 tags: [backup]
 ---
 
-I recently had the need to create a backup image of a portable USB device to store for safe keeping. This was not a bootable drive, just a drive with files on it. Yeah, I could have copied the files from the drive, or I could have create a zip archive from them. But I wanted to create an image as I wasn't really sure of the contents of the drive (it was an update stick for a home arcade machine - future post).
+I recently had the need to create a backup image of a portable USB device to store for safe keeping. This was not a bootable drive, just a drive with files on it. Yeah, I could have copied the files from the drive, or I could have create a zip archive from them. But I wanted to create an image as I wasn't really sure of the contents of the drive. It was an update stick for a Golden Tee GO arcade machine (see [Repairing a Golden Tee Go Arcade]({% post_url 2023-09-16-repairing-golden-tee-go %})).
 
 ## Create the Backup
 
