@@ -14,7 +14,8 @@ In playing with Jekyll and static sites, I've recently learned about the `webp` 
 * <https://packages.debian.org/search?keywords=webp> (for the `cwebp` tool)
 
 ```console
-apt install imagemagick webp```
+apt install imagemagick webp
+```
 
 
 ## Resize, Strip Metadata, and Convert to WEBP

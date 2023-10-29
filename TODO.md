@@ -3,7 +3,6 @@
 * Virtualizing OPNsense in HA Proxmox
 * BGP with kube-vip and OPNsense
 * LQIP and NodeJS CLI Tools
-* Repairing Golden Tee GO
 * 2023 State of Homelab
 * Reset EGO Battery
 * Designing and constructing laundry pedestal
