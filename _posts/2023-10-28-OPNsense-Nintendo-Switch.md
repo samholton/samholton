@@ -54,6 +54,5 @@ The following steps and screenshots were performed on OPNSense 23.7.2.
     * Destination port: `any`
     * Translation / target: `WAN address`
     * Static port: checked
-    * 
 
 1. Run the Nintendo Switch connection test again to confirm NAT type `B`
