@@ -13,7 +13,7 @@ image:
 
 
 
-> This does not work for newer Security+ 2.0 garage door openers. See [Local Garage Door Control with RATGDO]({% post_url 2023-09-10-local-garage-door-control-ratgdo %}) for a much better off the shelf product."
+> This does not work for newer Security+ 2.0 garage door openers. See [Local Garage Door Control with RATGDO]({% post_url 2023-09-10-local-garage-door-control-ratgdo %}) for a much better off the shelf product.
 {: .prompt-warning }
 
 In my previous house, I wanted to add my garage door to Home Assistant. The primary goal was to setup alerts if the garage door was open past a certain time. The secondary goal was to lock-out the remote openers during the night as I was mostly parking in the driveway. This would prevent anyone from busting the windows, opening the garage door and entering the house.
